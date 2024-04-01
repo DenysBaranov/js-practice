@@ -14,7 +14,7 @@ const library = {
         books.push ({bookName, bookAuthor, bookYear, bookId});
     },
     printBookInfo (bookId) {
-        const findBookById = books.find (bk => bk.bookId === bookId);                         //Object.values (books(bookId));
+        const findBookById = books.find (bk => bk.bookId === bookId);
         console.log (findBookById);
     },
     printAllBooks () {
